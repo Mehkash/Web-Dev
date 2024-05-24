@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Lets Learn it</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Apply for Sigma Web Development Course</h1>
+    <form action="post">
+        <div>
+            <label for="1">Your Username</label>
+            <input type="text" id="1" name="Your Username" placeholder="John" required>
+            <input type="button" value="Sumbit">
+        
+        </div>
+        <br>
+        <div>
+            <input type="radio" name="Gender" id="2" value="Male" required>
+            <label for="2">Male</label>
+            <input type="radio" name="Gender" id="3" value="Female" required> 
+            <label for="3">Female</label>
+        </div>
+        <br>
+        <div >
+            <input type="checkbox" name="Your Skill" id="5" >    
+            <label for="5">WordPress Developer</label> <br>
+            <input type="checkbox" name="Your Skill" id="6" >    
+            <label for="6">Software</label><br>
+            <input type="checkbox" name="Your Skill" id="7" >    
+            <label for="7">Marketing</label><br>
+            <input type="checkbox" name="Your Skill" id="8" >    
+            <label for="8">Seo</label>
+        </div> 
+        <br>
+        <div>
+            <label for="10">Select Your Age</label>
+            <select name="Fruits" id="10" >
+                <option value="Your Age"> Under 18</option>
+                <option value="Your Age"> 18</option>
+                <option value="Your Age"> 19 </option>
+                <option value="Your Age"> 20</option>
+                <option value="Your Age"> 21</option>
+                <option value="Your Age"> 22</option>
+                <option value="Your Age"> 23</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="9"> Enter Your Comment</label><br>
+            <textarea name="Comment" id="9" cols="40" rows="5" required></textarea>
+        </div>
+        <button id="12">Sumbit</button>
+        <form id="12" action="https://www.facebook.com" method="get"></form>
+    </form>
+</body>
+</html>
